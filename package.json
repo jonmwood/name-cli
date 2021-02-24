@@ -1,10 +1,11 @@
 {
 	"name": "name-cli-jon",
 	"version": "1.1.0",
+	"description": "get to know Jon via `npx name-cli-jon`.",
 	"bin": {
 		"name-cli": "index.js"
 	},
 	"dependencies": {
-		"clear-any-console": "^1.16.2"
+		"cli-welcome": "^2.2.2"
 	}
 }

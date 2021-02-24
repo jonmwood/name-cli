@@ -1,9 +1,18 @@
 #!/usr/bin/env node
 
-const clearConsole = require('clear-any-console')
+const pkgJSON = require('./package.json')
+const welcome = require('cli-welcome')
 
-// Clears the console.
-clearConsole()
+welcome({
+	title: pkgJSON.name,
+	tagLine: `Welcome to this cli!`,
+	description: pkgJSON.description,
+	version: pkgJSON.version,
+	bgColor: `#50fa7b`,
+	color: `#000`,
+	bold: true,
+	clear: true,
+})
 
 console.log(`
 jon wood - designer
