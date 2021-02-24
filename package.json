@@ -6,6 +6,7 @@
 		"name-cli": "index.js"
 	},
 	"dependencies": {
+		"chalk": "^2.4.2",
 		"cli-welcome": "^2.2.2"
 	},
 	"keywords": [

@@ -2,9 +2,15 @@
 
 const pkgJSON = require('./package.json')
 const welcome = require('cli-welcome')
+const chalk = require('chalk')
+const log = console.log
+const dim = chalk.dim
+const italic = chalk.italic
+const twitterColor = chalk.hex(`#1da1f2`).bold.inverse
+const githubColor = chalk.hex(`#6cc644`).bold.inverse
 
 welcome({
-	title: pkgJSON.name,
+	title: `Jon Wood`,
 	tagLine: `Welcome to this cli!`,
 	description: pkgJSON.description,
 	version: pkgJSON.version,
@@ -14,12 +20,9 @@ welcome({
 	clear: true,
 })
 
-console.log(`
-jon wood - designer
+log(`${italic(`Bio: hello, nice to meet you!!!`)}
 
-Bio: hello, nice to meet you!!! 
-
-🐦 Twitter: https://twitter.com/jonmwood
-👨🏻‍💻 Github: https://github.com/jonmwood
+${twitterColor(` Twitter `)} ${dim(`https://twitter.com/jonmwood`)}
+${githubColor(` Github `)} ${dim(`https://github.com/jonmwood`)}
 
 `)
