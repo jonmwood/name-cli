@@ -1,6 +1,6 @@
 {
 	"name": "name-cli-jon",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "get to know Jon via `npx name-cli-jon`.",
 	"bin": {
 		"name-cli": "index.js"
