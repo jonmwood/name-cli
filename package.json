@@ -11,5 +11,13 @@
 	"keywords": [
 		"jon wood",
 		"jon"
-	]
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "jonmwood/name-cli",
+	"author": {
+		"name": "Jon Wood",
+		"email": "jonmwood@gmail.com",
+		"url": "https://twitter.com/jonmwood"
+	}
 }
