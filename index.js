@@ -17,7 +17,7 @@ welcome({
 console.log(`
 jon wood - designer
 
-Bio: ajsdlfkajsdlkjaflkdfjlkafljasflkjsdlkfjsdflk
+Bio: hello, nice to meet you! 
 
 🐦 Twitter: https://twitter.com/jonmwood
 👨🏻‍💻 Github: https://github.com/jonmwood
